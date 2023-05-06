@@ -19,9 +19,9 @@
     android:supportsRtl="true"
     android:theme="@style/Theme.LocationScanner"
     tools:targetApi="31">
-    <meta-data android:name="com.kakao.sdk.AppKey" android:value="hWZor9sps0//BAEGDovJaohdFEw="/>
+    <meta-data android:name="com.kakao.sdk.AppKey" android:value="4426d7f58b6287b42d03be8b057c6150"/>
     <activity
-        android:name=".MainActivity"
+        android:name="MainActivity"
         android:exported="true">
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
