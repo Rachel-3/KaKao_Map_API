@@ -20,6 +20,8 @@ import android.os.Bundle;
 import android.util.Base64;
 import android.util.Log;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
 
 import net.daum.mf.map.api.CameraUpdateFactory;
 import net.daum.mf.map.api.MapPoint;
@@ -33,6 +35,8 @@ import java.security.NoSuchAlgorithmException;
 public class MainActivity extends AppCompatActivity implements MapView.CurrentLocationEventListener, MapView.MapViewEventListener {
     private MapView mapView;
     private ViewGroup mapViewContainer;
+    private EditText keywordEditText;
+    private Button searchButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
