@@ -57,6 +57,9 @@ KaKao Map API Integration for Android
 - **빌드 도구** : Gradle
 - **라이브러리** : 카카오맵 API
 
+### 라이선스
+이 프로젝트는 MIT 라이선스 하에 배포됩니다. 자세한 내용은 [LICENSE](LICENSE) 파일을 참조하세요.
+
 ### 연락처
 문의사항은 다음 이메일로 연락주세요.
 
